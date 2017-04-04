@@ -3,7 +3,7 @@ var myList = [];
 function addItem(){
   var input = document.getElementById("newItem").value;
   var list = document.getElementById("listDisplay");
-  item = document.createElement("li");
+  var item = document.createElement("li");
   var btn = createRemoveButton();
   btn.addEventListener("click",removeListItem,false);
   myList.push(input);
